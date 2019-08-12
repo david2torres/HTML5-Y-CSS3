@@ -1,0 +1,260 @@
+  .{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+/* Fondo de pagina */
+  body {
+    background-color: #29292A;
+  }
+
+/* Adaptacion de items tipo lista */
+  ul{
+    list-style-type:none;
+  }
+
+/*Menu Login*/
+  a{
+    color: black;
+    line-height: 4;
+    margin: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 16px 16px;
+    display: block;
+    float:right;
+    overflow: hidden;
+  }
+
+  a:hover{
+    color: #206444;
+  }
+
+  /*Logo Principal*/
+
+  .wrapper{
+    background-image: url(images/logo.png);
+    background-position:45px 45px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+  }
+
+/* Vista Header 1 */
+  header div {
+    float: left; width: 38%;
+    background-color:#206444;
+    background-size: cover;
+    display:block;
+    height: 714px;
+  }
+
+/* Vista Header 2 */
+  header nav{
+      float: right; width: 62%; height: auto;
+      background-image: url(images/bg-1.png);
+      background-repeat: no-repeat;
+      background-color: #206444;
+      background-size:contain;
+      display:block;
+      height: 714px;
+  }
+
+/*Asignacion segundo logo*/
+  main header div h1 em{
+    background-image: url(images/arrow.png);
+    background-position:350px 150px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+  }
+
+
+  /* Titulos y Textos */
+
+  body header h1{
+      text-align: left;
+      display: block;
+      font-family: 'DM Serif Text', serif;
+      font-size:2em;
+      color: white;
+  }
+
+  a[href="/signup"]{
+    color:white;
+	}
+
+  a[href="/login"]{
+	color:white;
+    }
+
+  main header div h1{
+    display: inline-block;
+    text-transform: lowercase;
+    transform: translateY(10%);
+    font-family: 'Allerta', sans-serif;
+    font-size: 80px;
+    text-indent: 40pt;
+    text-align: center;
+    color:#f0bccc;
+  }
+
+  main header div h1 em {
+    font-family: 'Allerta', sans-serif;
+    transform: translateY(20%);
+    font-size: 90px;
+    text-indent: 40pt;
+    text-align: center;
+    border-color: #f0bccc;
+    display:block;
+    -webkit-text-fill-color:#206444;
+    -webkit-text-stroke:2px;
+  }
+
+  main header div p{
+    word-break: keep-all;
+    display:block;
+    transform: translateY(90%);
+    text-align: center;
+    text-indent: 100px;
+  }
+
+  [class="wrapper"]{
+      font-family:'Rock Salt', cursive;
+      font-size: 25px;
+      color:white;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    font-size: 'Red Hat Display', sans-serif;
+  }
+
+  strong{
+    font-size: 200%;
+  }
+
+  /*Vista e Imagenes Feature*/
+
+  #features {
+    display:inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+  }
+
+  .bills::before{
+    margin-left:50px;
+    margin-top:4px;
+    border:30px solid #fff;
+    border-radius:50px;
+    content: url(images/icon-bills.png);
+  }
+
+  .credit::before{
+    margin-left:50px;
+    margin-top:4px;
+    border:30px solid #fff;
+    content:"" url(images/icon-credit.png);
+  }
+
+  .budgets::before{
+    margin-left:50px;
+    margin-top:4px;
+    border:30px solid #fff;
+    border-radius:50px;
+    content:"" url(images/icon-budgets.png);
+  }
+
+  .bills{
+    float: left;width: 25%;
+    margin: 0 -2px;
+    cursor: pointer;
+  }
+
+  .credit{
+    text-align: center;
+    float: left;width: 30%;
+    float: center;width: 45%;
+    margin: 0 -2px;
+    cursor: pointer;
+  }
+
+  .budgets{
+    float: right;width: 25%;
+    margin: 0 -2px;
+    cursor: pointer;
+  }
+
+  .bills:hover{
+    background: #ddd;
+    color: black;
+  }
+
+  .credit:hover{
+    background: #ddd;
+    color: black;
+  }
+
+  .budgets:hover{
+    background: #ddd;
+    color: black;
+  }
+
+  /*Vista e Imagenes achievements */
+
+  #achievements{
+    display:inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+  }
+
+  .assets{
+    text-align: center;
+    float: left;width: 25%;
+    margin: 0 -2px;
+  }
+
+  .investments{
+    text-align:center;
+    float: left;width: 35%;
+    float: right;width: 35%;
+    margin: 0 -2px;
+  }
+
+  .users{
+    text-align: justify;
+    float: right;width: 18%;
+  }
+
+  .assets::before{
+   margin-right:50px;
+   margin-top:4px;
+   border:45px solid #fff;
+   content: "" url(images/icon-assets.png);
+  }
+
+  .investments::before{
+   margin-left:48px;
+   margin-top:1px;
+   border:60px solid #ffff;
+   content:"" url(images/icon-investments.png);
+  }
+
+  .users::before{
+   margin-left:-90px;
+   margin-top:4px;
+   border:45px solid #fff;
+   content: url(images/icon-users.png);
+  }
